@@ -1,0 +1,19 @@
+{% include 'header.html' %}
+<html>
+	<head>
+		<title>Weather App</title>
+
+	</head>
+	<body>
+        <html background_colour="red"></html>
+		{% block content %}
+			
+		{% endblock %}
+	</body>
+
+</html>
+<script>
+	$(document).ready(function(){
+		$(".alert").hide(4000);
+	});		
+</script>
